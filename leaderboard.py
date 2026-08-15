@@ -9,6 +9,9 @@ def get_leaderboard(limit=5):
 
 def display_leaderboard():
     board = get_leaderboard()
+    if not board:
+        print("No scores yet. You can be the Top of the leaderboard.")
+        return
     print("--- Leaderboard ---")
     for rank, (name, data) in enumerate(board, start=1):
         print(f"{rank}. {name} - {data['high_score']}")
