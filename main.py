@@ -1,6 +1,6 @@
 import pygame
 import sys
-from game import SnakeGame, WIDTH, HEIGHT
+from core.game import SnakeGame, WIDTH, HEIGHT
 
 def main():
     pygame.init()
