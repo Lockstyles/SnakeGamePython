@@ -8,7 +8,7 @@ WIDTH = CELL_SIZE * GRID_WIDTH
 HEIGHT = CELL_SIZE * GRID_HEIGHT
 
 class SnakeGame:
-    def __init__(self, screen, speed=10):
+    def __init__(self, screen, speed=5):
         self.screen = screen
         self.speed = speed
         self.reset()
