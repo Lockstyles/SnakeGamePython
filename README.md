@@ -10,8 +10,13 @@ A terminal/GUI-based Snake game built in Python with login, profile, leaderboard
 - R: Restart the game
 - Q: Quit the game
 
+## Requirements
 
-Setup
+- Python 3.8 or later
+- Pygame
+- A terminal or GUI environment
+
+## Setup
 1. Create a Virtual Environment
 python3 -m venv .venv
 
