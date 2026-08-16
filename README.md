@@ -16,6 +16,21 @@ A terminal/GUI-based Snake game built in Python with login, leaderboardls featur
 - Pygame
 - A terminal or GUI environment
 
+## Project Structure
+
+```text
+Python_snake/
+├── main.py              # Main entry point
+├── auth.py              # User authentication and registration
+├── helpers.py           # Helper functions used by the application
+├── leaderboard.py       # Leaderboard and score functionality
+├── README.md            # Project documentation
+├── core/
+│   └── game.py          # Snake game logic
+└── data/
+    ├── scores.json      # Stores player scores
+    └── users.json       # Stores user account data
+
 ## Setup
 1. Create a Virtual Environment
 ```bash
