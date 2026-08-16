@@ -1,9 +1,9 @@
-Snake Game
-Description
+### Snake Game
+## Description
 
 A terminal/GUI-based Snake game built in Python with login, profile, leaderboard and settings features.
 
-Setup
+## Setup
 1. Create a Virtual Environment
 python3 -m venv .venv
 
@@ -35,3 +35,9 @@ If the command prints a version number, Pygame is installed successfully.
 4. Run the Game
 python main.py
 
+## Features
+
+- User login and registration
+- Snake gameplay using Pygame
+- Score tracking
+- Leaderboard
